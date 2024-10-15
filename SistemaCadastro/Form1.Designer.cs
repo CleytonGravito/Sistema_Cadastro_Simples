@@ -5,19 +5,23 @@
         /// <summary>
         /// Required designer variable.
         /// </summary>
+
+        // Variável necessária para o designer da interface.
         private System.ComponentModel.IContainer components = null;
 
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+
+        // Método responsável pela liberação de recursos.
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
             {
-                components.Dispose();
+                components.Dispose(); // Libera componentes se não forem nulos.
             }
-            base.Dispose(disposing);
+            base.Dispose(disposing);  // Chama o método base Dispose.
         }
 
         #region Windows Form Designer generated code
